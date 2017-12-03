@@ -13,7 +13,7 @@ from ..CommonFunctions import printStats,transformToSpaceFormat,transformToPARFo
 from ..DataStructures import WordNetNode
 import numpy as np
 from random import shuffle
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 ##Creates a WordNetNode out of a list of words as strings
 #@param list_of_strings A list of strings to be turned into WNN
@@ -344,9 +344,9 @@ class SynsetResolver:
                         print "Single Cluster",np.unique(prediction)
                     else:
                         print len(np.unique(prediction)),"Clusters"
-
-                    plt.scatter(vectors[:,0],vectors[:,1],c=prediction)
-                    plt.show()
+                    #Reomoved this dependency but easy enough to add back in
+                    #plt.scatter(vectors[:,0],vectors[:,1],c=prediction)
+                    #plt.show()
                 #Now, we have to connect the words that were used in the clusters to the ones that were not (so easy in pandas, need minion)
                 for i in range(len(prediction)):
                     words_to_cluster[i].attachToParent(int(prediction[i]))
