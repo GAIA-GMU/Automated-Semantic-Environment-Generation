@@ -45,3 +45,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.pyc
+OntologyGeneration/SemanticGeneration/FnWnVerbMap.1.0.txt
+OntologyGeneration/SemanticGeneration/tagger.pos
