@@ -1,0 +1,19 @@
+SaccadeListen : rapid,movement,eye,fixation
+Run : move,speed,faster,walk,feet
+PointAt : direct,attention,position,direction,finger
+SaccadeSpeak : rapid,movement,eye,fixation
+Toss : chuck,fling,heave
+Nod : agree, concur, dip
+Step : lift,set,foot
+SaccadeTalk : jerk,jerking,jolt
+Jump : push,surface,air,muscles,legs,feet
+Wiggle : move,down,side,rapid,movements
+PickUp : collect,something,left,elsewhere
+Gaze : gix, google,peer,stare
+Shake :agitate, appal, appall, brandish, churn
+Jog : canter, clip,trot
+Touch : close,contact,come
+Waggle : faw, wobble,wag
+Walk : move,regular,slow,pace
+PutDown : lay,set
+Speak : address,communicate, converse, declaim, deliver

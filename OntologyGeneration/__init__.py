@@ -1,5 +1,4 @@
 import HierarchyGeneration
 import SemanticGeneration
-import DatabaseCommands
 import CommonFunctions
 import DataStructures

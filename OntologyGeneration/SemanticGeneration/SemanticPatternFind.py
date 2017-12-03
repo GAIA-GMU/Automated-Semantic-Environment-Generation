@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 import re,sys,inspect,pickle  #Tells you the information for a module inspect.getmembers(module)
-from spacy.en import English
+#from spacy.en import English
 
 ##Finds text representing semantics using regular expressions
 class PatternSemantics:
@@ -50,9 +50,10 @@ class PatternSemantics:
         return list(set(results))
 
 class DependencySemantics:
-    def __init__(self,dep_types =['nmod']):
-        self.pattern=dep_types
-        self.parser=English()
+    def __init__(self,parser,dep_types =['nmod']):
+        self.pattern= dep_types
+        self.parser = parser
+        #self.parser=English()
 
     def getSentences(self,text=None):
         if text is not None:
